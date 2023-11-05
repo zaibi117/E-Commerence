@@ -12,7 +12,7 @@ const Hero = () => {
                     }}
                     />
                 </div>
-                <div className="mx-auto max-w-2xl py-8 sm:py-32 lg:py-40">
+                <div className="mx-auto max-w-2xl py-4 sm:py-8 lg:py-16">
                     <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                         <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                             Announcing our next round of funding.{' '}
@@ -27,7 +27,7 @@ const Hero = () => {
                             Iqra Muhammad Ali Cloth House
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-gray-600">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, illo, iste doloribus voluptates itaque praesentium, reprehenderit officia neque officiis omnis deleniti ad explicabo consectetur dolor quia incidunt quasi numquam fuga beatae tenetur!
+                            Welcome to Iqra Muhammad Ali Cloth House, where comfort meets quality. Explore a wide array of cozy blankets, luxurious bedsheets, sumptuous velvet materials, and an assortment of home textile essentials at your fingertips. From snuggly blankets to exquisite bedding, we offer a curated collection designed to elevate your home's comfort and style. Browse through our diverse range of textures, patterns, and colors to find the perfect match for your personal sanctuary. With a commitment to exceptional craftsmanship and premium materials.
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <a
