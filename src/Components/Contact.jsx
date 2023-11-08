@@ -91,7 +91,7 @@ const Contact = () => {
                     type="email"
                     id="email"
                     name="email"
-                    class="mt-1 w-full rounded-md p-2 border-gray-200 bg-white text-sm text-gray-700 shadow-md"
+                    class="mt-1 w-full rounded-md p-2 border-gray-200 bg-white text-sm text-gray-700 shadow-md" placeholder='tom.lathom@gmail.com'
                   />
                 </div>
                 <div class="col-span-6">
@@ -102,7 +102,9 @@ const Contact = () => {
                   <textarea
                     id="text-box"
                     name="text-box"
-                    class="mt-1 w-full h-40 rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-md"
+                    class="mt-1 w-full h-40 rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-md p-2"
+                    style={{"resize":"none"}}
+                    placeholder='Write your message here'
                     
                   />
                 </div>

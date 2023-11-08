@@ -21,7 +21,7 @@ const CollectionCard = (props) => {
                         <p className="mt-2">
                             <span className="sr-only"> Regular Price </span>
 
-                            <span className="tracking-wider text-gray-900"> {props.price} Rs </span>
+                            <span className="tracking-wider text-gray-900 font-bold"> {props.price}</span> Rs
                         </p>
                     </div>
                 </a>

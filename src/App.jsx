@@ -8,6 +8,8 @@ import AboutUs from './Pages/AboutUs'
 import { Routes, Route } from 'react-router-dom'
 import Nopage from './Components/Error404'
 import ExplorePage from './Pages/ExplorePage'
+import Blankets from './Components/Blankets'
+import data from './data'
 
 
 
@@ -19,9 +21,13 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="explore" element={<ExplorePage />} />
           <Route path="categories" element={<CategoriesPage />} />
+          <Route path="categories/blankets" element={<Blankets data={data} />} />
+          <Route path="categories/velvet" element={<Blankets data={data} />} />
+          <Route path="categories/bedSheets" element={<Blankets data={data} />} />
+          <Route path="categories/praying-mats" element={<Blankets data={data} />} />
           <Route path="contact-us" element={<ContactUs />} />
           <Route path="about-us" element={<AboutUs />} />
-          <Route path="*" element={<Nopage/>} />
+          <Route path="*" element={<Nopage />} />
         </Route>
       </Routes>
       <Footer />
