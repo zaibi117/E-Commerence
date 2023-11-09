@@ -11,7 +11,7 @@ const ProductCard = (props) => {
                     <div className="badge badge-secondary">NEW</div>
                 </h2>
                 <div className="flex flex-col justify-end">
-                    <div className="badge badge-outline bg-blue-600 text-white"><span className='font-bold'>{props.discount}% </span> Discount</div> 
+                    <div className="badge badge-outline bg-info text-white"><span className='font-bold'>{props.discount}% </span> Discount</div> 
                     <p className='pt-[10px]'><span className='line-through'>{props.price}</span> Rs</p>
                     <p className='text-xl'><span className='font-semibold'>{props.price-(props.price*props.discount)/100}</span> Rs</p>
                 </div>
