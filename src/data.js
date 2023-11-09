@@ -1,13 +1,13 @@
 const data=[
     {
         id:1,
-        title:"Blanket",
+        title:"Red",
         price:"1000",
         discount:"10"
     },
     {
         id:2,
-        title:"Blanket",
+        title:"Blanket Camel",
         price:"1000",
         discount:"10"
     },
@@ -19,7 +19,7 @@ const data=[
     },
     {
         id:4,
-        title:"Blanket",
+        title:"Blue",
         price:"1000",
         discount:"10"
     },
